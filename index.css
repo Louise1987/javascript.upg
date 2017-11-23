@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    
+}
+
+#main {
+    display: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    padding-top:100px;
+    
+}
+
+#container {
+    background-color: #212121;
+    height: 120px;
+    width:100%;
+    color: #FFF;
+    font-size: 20px;
+    flex-wrap: nowrap;
+    position: fixed;
+   
+}
+
+#header a {      
+    background-color: #212121;
+    height: 100px;
+    width:100%;
+    color: #FFF; 
+    font-family:'Archivo Black', sans-serif;
+    font-size: 20px;      
+    float: left;
+    color: #FFF;
+    
+}
+
+.head {
+    float:left;
+    color: #FFF;
+    padding-left: 20px;
+
+}
+
+.shopingcart {
+    float: right;
+    font-size: 60px; 
+    padding: 20px;
+    
+}
+
+span {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#counter {
+    font-size: 40px;
+    color: #FFF;
+}
+
+.productListClass {
+    width: 100%;
+    border: solid 2px;
+    background-color: #F5F5F5;
+    flex: row;
+    
+}
+
+h1 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 40px;
+}
+
+h5 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.productListItemClass {
+    background-color:#F5F5F5;
+    height: 850px;
+    flex: 1 auto;
+    width: 100%;
+    background: #F5F5F5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F5F5F5, #FFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F5F5F5, #FFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F5F5F5, #FFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F5F5F5, #FFF); /* Standard syntax */
+}
+
+
+.text1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 70px;
+}
+
+.text2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.produkt {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+img {
+    width: 200px;
+}
+
+
+button{
+    background-color: #5596F5;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 15px;
+    width: 250px;
+    font-size: 16px;
+    
+
+}
+
+i {
+    color: #FFF;
+}
+
+.prodButton {
+    background-color: #2E5DC4;
+    color: #FFF;
+    border-radius: 10px;
+    margin:auto;
+    font-family:'Nunito Sans', sans-serif;
+    }
+
+    @media (max-width: 600px) {      
+        .letterBox {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 960px) {      
+        .letterBox {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    
+    
+    
+   
+
+   
